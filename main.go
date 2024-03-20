@@ -117,7 +117,7 @@ func bookTicket(userTickets *int, remainingTickets *int, userFirstName string, u
 	}
 
 	bookings = append(bookings, userData)
-	fmt.Printf("List of bookings is %v\n", bookings)
+	// fmt.Printf("List of bookings is %v\n", bookings)
 
 	// bookings = append(bookings, userFirstName+" "+userLastName)
 
